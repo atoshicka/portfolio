@@ -1,6 +1,6 @@
-import telegram from '../assets/connection/telegram.png';
-import email from '../assets/connection/email.png';
-import github from '@/shared/assets/icon/github.png';
+import telegram from '../assets/connection/telegram.svg';
+import email from '../assets/connection/email.svg';
+import github from '@/shared/assets/icon/github.svg';
 
 export const contacts = [
     {
