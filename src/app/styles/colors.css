@@ -1,0 +1,19 @@
+:root {
+    --font-main: 'Rubik', sans-serif;
+
+    --main-bg: #191820;
+    --main-text: #D8D7DD;
+    --accent: #8564DD;
+    --details: #D8D7DD;
+    --other: #564D93;
+    --circle: #27243F;
+}
+
+:root[data-theme='light'] {
+    --main-bg: #D8D7DD;
+    --main-text: #191820;
+    --accent: #8564DD;
+    --details: #191820;
+    --other: #564D93;
+    --circle: #cac7d4;
+}
