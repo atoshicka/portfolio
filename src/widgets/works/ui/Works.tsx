@@ -21,6 +21,7 @@ function Works() {
                     </li>
                 ))}
             </ul>
+            <p className="works__github">Больше моих работ на <a href="https://github.com/atoshicka">Github</a></p>
         </section>
     );
 }

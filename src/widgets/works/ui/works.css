@@ -31,6 +31,19 @@
     gap: 24px;
 }
 
+.works__github {
+    font-size: clamp(0.8rem, 1.1vw, 1.6rem);
+    color: color-mix(in srgb, var(--main-text) 50%, transparent);
+}
+
+.works__github a {
+    color: var(--accent);
+
+    &:active {
+        color: var(--main-text);
+    }
+}
+
 @media (max-width: 700px) {
     .works {
         padding: 0 16px;

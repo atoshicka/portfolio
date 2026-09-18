@@ -50,7 +50,7 @@ export const Navbar = ({ theme, onToggleTheme }: NavbarProps) => {
                     className="brand"
                     onClick={(e) => handleNavClick(e, 'header')}
                 >
-                    atoshica
+                    ATOSHICA
                 </a>
 
                 <div className="navbar__menu">

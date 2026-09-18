@@ -50,6 +50,7 @@
   transition: all 0.3s ease;
   z-index: 1;
   overflow: visible;
+  letter-spacing: 3%;
 
   &::before {
   content: '';

@@ -1,0 +1,42 @@
+.preloader {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    overflow: hidden;
+    background-color: var(--main-bg);
+    transition: opacity 0.7s ease;
+}
+ 
+.isRevealing {
+    opacity: 0;
+    pointer-events: none;
+}
+ 
+.columns {
+    position: absolute;
+    inset: 0;
+}
+ 
+.column {
+    position: absolute;
+    top: 100%;
+    width: calc(100% / 3);
+    height: var(--preloader-block-height, 70vh);
+    background-color: var(--accent);
+    animation-name: fly-through;
+    animation-timing-function: cubic-bezier(0.65, 0, 0.35, 1);
+    animation-fill-mode: forwards;
+}
+ 
+.column:nth-child(1) { left: 0%; }
+.column:nth-child(2) { left: 33.3333%; }
+.column:nth-child(3) { left: 66.6666%; }
+ 
+@keyframes fly-through {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(calc(-100dvh - 70vh));
+    }
+}
