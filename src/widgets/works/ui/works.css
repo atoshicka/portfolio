@@ -4,14 +4,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: clamp(20px, 4vw, 60px);
 }
 
 .works__title {
-    width: 73%;
+    width: 100%;
+    max-width: 1000px;
+    align-self: center;
     text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 60px;
+    margin: 0;
     color: var(--main-text);
     font-family: var(--font-main);
     font-weight: 400;
@@ -25,10 +26,14 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    display: grid;
+    grid-auto-rows: 1fr;
+    gap: 50px;
+}
+
+.works__list li {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
+    justify-content: center; 
 }
 
 .works__github {
