@@ -11,6 +11,7 @@ import redux from '@/shared/assets/icon/redux.svg';
 import axios from '@/shared/assets/icon/axios.svg';
 import reactnavigation from '@/shared/assets/icon/reactnavigation.svg';
 import html from '@/shared/assets/icon/html.svg';
+import docker from '@/shared/assets/icon/docker.svg';
 import form from '../assets/projects/form.svg';
 import gitLunch from '../assets/projects/gitLunch.svg';
 import theLastHunt from '../assets/projects/theLastHunt.svg';
@@ -29,6 +30,7 @@ export const projects = [
             { src: nodeJs, alt: 'Node.js' },
             { src: express, alt: 'express' },
             { src: postgresql, alt: 'PostgreSQL' },
+            { src: docker, alt: 'Docker' },
         ],
     },
     {
